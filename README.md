@@ -44,7 +44,7 @@ To hide/show all locations window, click on the Hide All button on the top left 
 - [Openweathermap API - Current weather data](http://openweathermap.org/current)
 - [Openweathermap API - Zipcode](http://openweathermap.org/current#zip)
 - [stackoverflow - search model observed to filter locations to create ViewModel](https://stackoverflow.com/questions/13390099/knockout-mapping-of-data-not-working-with-filter-function)
-- [stackoverflow - div parent/child placement CSS learned teqhnique for CSS display options(https://stackoverflow.com/questions/2842368/how-to-place-last-div-into-right-top-corner-of-parent-div-css)
+- [stackoverflow - div parent/child placement CSS learned teqhnique for CSS display options](https://stackoverflow.com/questions/2842368/how-to-place-last-div-into-right-top-corner-of-parent-div-css)
 - [snippetlib - marker animations - fixed issues with my marker bounce animation code using this example](https://snippetlib.com/google_maps/marker_animations)
 - [stackoverflow -  fixed issues with my marker bounce animation code using this example](https://stackoverflow.com/questions/40739353/google-maps-animate-particular-marker-on-click)
 - [w3schools.com - CSS positioning refresher ](https://www.w3schools.com/css/css_positioning.asp)
