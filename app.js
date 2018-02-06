@@ -1,4 +1,3 @@
-
 //global locations array
 var locations = [ 
 	{
@@ -103,7 +102,6 @@ function initMap() {
     });
     //create infoWindow
     var myInfowindow = new google.maps.InfoWindow();
-    var bounds = new google.maps.LatLngBounds();
     var streetViewAPI = 'https://maps.googleapis.com/maps/api/streetview?size=250x125&location=';
 
     //For loop to create array of markers using the locations array
@@ -139,7 +137,7 @@ function initMap() {
     //create click eventListener to open infoWindow and bounce pin for each markers
         marker.addListener('click', (function(marker, i) {
             return function () {
-                if (marker.getAnimation() != null) {
+                if (marker.getAnimation() !== null) {
                     marker.setAnimation(null);
                 } else {
                     marker.setAnimation(google.maps.Animation.BOUNCE);
@@ -147,7 +145,7 @@ function initMap() {
                 }
                 populateInfoWindow(this, myInfowindow);
                 map.setZoom(15);
-            }
+            };
         }) (marker, i));
     }
 
@@ -181,7 +179,6 @@ function populateInfoWindow(marker, infowindow) {
 
 //Hide/Show Locations options
 var isListVisible = true;
-var isDisplayButtonVisible = false;
 
 // function to shows all locations in the location list
 function showLocations() {
@@ -192,7 +189,7 @@ function showLocations() {
 //function to hide  all in the location list
 function hideLocations() {
     $("#search-list").hide();
-    $("#display-buttons").unwrap();; 
+    $("#display-buttons").unwrap();
 }
 $("#show-locations").click(showLocations);
 $("#hide-locations").click(hideLocations);
@@ -208,8 +205,8 @@ var Location = function(data) {
 
     this.address = ko.computed(function() {
         return this.street() + " " + this.city();
-    }, this)
-}
+    }, this);
+};
 
 //ViewModel
 var viewModel = function() {
@@ -248,7 +245,7 @@ var viewmodel = new viewModel();
 ko.applyBindings((viewmodel));
 
 //openWeather_API Current Weather by zipcode
-var myOpenWeatherAPIKey = '9b5cec924e56cae4b7f3dcefb4ddb746'
+var myOpenWeatherAPIKey = '9b5cec924e56cae4b7f3dcefb4ddb746';
 var openWeatherMapUrl = "http://api.openweathermap.org/data/2.5/weather?zip=92101,us&APPID=" + myOpenWeatherAPIKey + "&units=imperial";
 //using JSON method for retrieving API data
 $.getJSON(openWeatherMapUrl, function(data) {
@@ -270,4 +267,4 @@ weatherError = function(e){
 // error handling function on maps
 mapError = function() {
     alert('Google Maps failed to load!');
-}
+};
