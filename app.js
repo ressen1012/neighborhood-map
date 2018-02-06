@@ -106,6 +106,7 @@ function initMap() {
 
     //For loop to create array of markers using the locations array
     for (var i =0; i < locations.length; i++) {
+    	/* jshint loopfunc: true */
         //get location coodinates from the location array for position variable
         var position = locations[i].location;
         var title = locations[i].name;
