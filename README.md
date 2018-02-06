@@ -48,6 +48,6 @@ To hide/show all locations window, click on the Hide All button on the top left 
 - [snippetlib - marker animations - fixed issues with my marker bounce animation code using this example](https://snippetlib.com/google_maps/marker_animations)
 - [stackoverflow -  fixed issues with my marker bounce animation code using this example](https://stackoverflow.com/questions/40739353/google-maps-animate-particular-marker-on-click)
 - [w3schools.com - CSS positioning refresher ](https://www.w3schools.com/css/css_positioning.asp)
-- [w3schools.com - CSS html ,a. target Attribute (https://www.w3schools.com/tags/att_a_target.asp)
+- [w3schools.com - CSS html a tag target Attribute ](https://www.w3schools.com/tags/att_a_target.asp)
 - [stackoverflow - CSS center text (horizontally and vertically) inside a div block - used for text properties](https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block)
 - [stackoverflow - Google Maps Responsive Resize - used to gain undertsanding of responsive Google Maps code](https://stackoverflow.com/questions/18444161/google-maps-responsive-resize)
