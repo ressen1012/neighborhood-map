@@ -2,7 +2,22 @@ Udacity Neighborhood Map Project (#5)
 
 ## About: 
 Web app created for the Udacity Front-End Web Developer nanodegree program, project #5.
-App lists selected locations in San Diego (92101) using Google Maps API, Google Maps StreetView API and/a third party API called OpenWeatherMap API. The Web App uses jQuery, Knockout, Ajax request for JSON API calls. There are selected locations in the list where users can click on each marker and a pop-up window shows information about teh specific location based on its position (long,lat) in the map area.
+App lists selected locations in San Diego using Google Maps API, Google Maps StreetView API and/a third party API called OpenWeatherMap API for weather data for each location. The Web App uses jQuery, Knockout, Ajax request for JSON API calls. There are selected locations in the list where users can click on each marker and a pop-up window shows information about teh specific location based on its position (long,lat) in the map area.
+
+## Files Included in the repository are:
+1- index.html
+2- css/style.css
+3- css/media.css
+4- js/app.js (main js file)
+5- js/lib/jquery-3.2.1.min.js
+6- js/lib/knockout-3.4.2.js
+7- img/goggle_marker.png
+
+## Getting Started:
+1- Clone in Desktop or Download the repository to your local machine
+2- Chose the directory you wish to clone the project to OR Extract all files to specific location on your hard drive (keep file structure the same)
+3- Open index.html with desired browser (Chrome or FireFox is recommended)
+
 
 ## How to use the Web App:
 To search/filter a location within the "Points Of Interest", simply start typing the name of the location in the "Search Here" box
@@ -11,15 +26,6 @@ Info Windows with names, addresses, phone numbers, LatLng, and website links wil
 To open the website for a particular location of interest, right-click the web address and "Open link in a"
 To reset the map to the original screen, simply refresh the page
 To hide/show all locations window, click on the Hide All button on the top left of the page
-
-## Files Included int he root folder are:
-1- index.html
-2- css/style.css
-3- css/media.css
-4- js/app.js (main js file)
-5- js/lib/jquery-3.2.1.min.js
-6- js/lib/knockout-3.4.2.js
-7- img/goggle_marker.png
 
 ## Resources Used:
 - [Udacity Requests and APIs](https://classroom.udacity.com/nanodegrees/nd001/parts/e87c34bf-a9c0-415f-b007-c2c2d7eead73/modules/271165859175460/lessons/3174548544/concepts/31744191770923)
@@ -48,6 +54,6 @@ To hide/show all locations window, click on the Hide All button on the top left 
 - [snippetlib - marker animations - fixed issues with my marker bounce animation code using this example](https://snippetlib.com/google_maps/marker_animations)
 - [stackoverflow -  fixed issues with my marker bounce animation code using this example](https://stackoverflow.com/questions/40739353/google-maps-animate-particular-marker-on-click)
 - [w3schools.com - CSS positioning refresher ](https://www.w3schools.com/css/css_positioning.asp)
-- [w3schools.com - CSS html a tag target Attribute ](https://www.w3schools.com/tags/att_a_target.asp)
+- [w3schools.com - CSS html ,a. target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
 - [stackoverflow - CSS center text (horizontally and vertically) inside a div block - used for text properties](https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block)
 - [stackoverflow - Google Maps Responsive Resize - used to gain undertsanding of responsive Google Maps code](https://stackoverflow.com/questions/18444161/google-maps-responsive-resize)
