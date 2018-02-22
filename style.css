@@ -1,25 +1,13 @@
  html,
-      body, #map {
+ body, 
+ #map {
         width: 100%;
         height: 100%;
         z-index: 1;
         position: absolute;
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Roboto',arial,sans-serif;
       }
-
-h1 {
-	margin-top: 5px;
-	margin-left: 3px;
-}
-
-h3 {
-	margin-top: 8px;
-	color: #212121;
-	font-size: 16px;
-	font-family: 'Roboto',arial,sans-serif;
-	text-align: center;
-}
 
 a:visited {
     color: red;
@@ -33,11 +21,9 @@ a:active {
     color: blue;
 }
 
-hr {
+hr.place-end {
 	height: 1px;
-	color: #123455;
-	background-color: #123455;
-	border: none;
+	color: #292828e6;
 }
 
 .display-buttons {
@@ -49,30 +35,18 @@ hr {
 
 .search-area {
 	position: absolute;
+	width: 229px;
+	padding: 3px 10px 0px 1px;
 	margin-top: 0px;
 	background-color: #e8cbb1e6;
 	z-index: 3;
-}
-
-#show-locations, #hide-locations {
-	background-color: #fff4a2;
-	border: 1px solid #999;
-	border-radius: 3px;
-	width: 75px;
-	height: 0px;
-	line-height: 35px;
-	padding: 10px 10px 30px 10px;
-	text-align: left;
-	margin-left: 3px;
-	margin-bottom: 3px;
-	z-index: 4;
 }
 
 .input-box { 
 	margin-bottom: 15px;
 	margin-left: 3px;
 	height: 25px;
-	width: 280px;
+	width: 230px;
 }
 
 .search-list { 
@@ -84,48 +58,51 @@ hr {
 #open-weather {
 	z-index: 2;
 	width: 100%;
+	margin-left: 0;
 	position: absolute;
 }
 
 .weather-data {
+	font-size: 0.8em;
+	color: #7D5F5E;
+	text-align: center;
 	position: absolute;
 	top: 0;
 	right: 0;
 	vertical-align: top;
 	font-family: 'Roboto',arial,sans-serif;
-	background-color: #efefef;
+	font-weight: bold;
+	background-color: #F5F5DC;
 	z-index: 100;
 }
 
 .weather-data li {
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 5px;
     padding: 0;
-    font-size: medium;
+    font-size: 0.99em;
     font-weight: lighter !important; 
-    text-align: center;
+    text-align: left;
     color: #7b7a7a;
 }
 
-
 #locations {
 	max-height: 720px;
-	max-width: 280px;
-	padding: 1px 10px 30px 20px;
-	font-weight: normal;
+	max-width: 213px;
+	padding: 1px 10px 20px 20px;
 	overflow: scroll;
 	background-color: #ece3dae6;
 	margin-top: 100px;
 }
 
 #locations-list {
-	padding: 5px 10px 5px 2px;
+	padding: 3px 10px 0px 1px;
 	cursor: pointer;
 	list-style-type:none;
 	height: 50%;
-	line-height: 1.8;
-	font-weight: 5;
-	font-weight: bold;
+	line-height: 1.4;
+	font-weight: normal;
+	font-size: 0.95em;
 }
 
 .location-name {
@@ -136,12 +113,4 @@ hr {
 #locations-list li:hover {
 	background-color: #162f5de6;
 	color: white;
-}
-
-.weather-box {
-	max-height: 100px;
-	max-width: 80px;
-	display:block;
-    z-index: 3;
-    margin-left: 900px;
 }
