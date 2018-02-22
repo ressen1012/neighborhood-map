@@ -1,12 +1,24 @@
-@media screen and (max-width: 720px) {
-    .weather-data {
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+	.search-list {
+		height: 1500px;
+		display: none;
+	}
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
+	.weather-data {
+		width: 15vh;
+		height: 12vh;
+		font-size: 10px;
+		font-weight: normal;
+		text-align: center;
+	}
+}
 
-	.search-list {
-		display: none;
+@media screen and (max-width: 600px) {
+#weather-data li {
+	    font-size: 10px;
+	    font-weight: lighter !important; 
+	    text-align: left;
 	}
 }
